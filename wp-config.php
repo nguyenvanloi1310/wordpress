@@ -37,6 +37,18 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+/** Tự động cập nhật WordPress */
+define('WP_AUTO_UPDATE_CORE', true);  
+
+/** Tăng bộ nhớ PHP cho WordPress */
+define( 'WP_MEMORY_LIMIT', '128M' );
+
+/** Tự động sửa lỗi WordPress */
+define( 'WP_ALLOW_REPAIR', true );
+
+/** Vô hiệu hóa việc chỉnh sửa file theme và plugin trong WordPress Admin */
+define('DISALLOW_FILE_EDIT', true);
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -57,23 +69,6 @@ define( 'SECURE_AUTH_SALT', 'M|>LO~N{jCr4kdnw4]Ca%^]q|* 2Wqqeo&Np)S%.Iq@&Antn<@l
 define( 'LOGGED_IN_SALT',   ',EDI[geUPXS1u6%hF(F42@%*;?mz?N7(-+@W8olDf)3~b5s 2q}{l:kkH`!P4`]H' );
 define( 'NONCE_SALT',       '%JZ!!>X#k3kggUr4HB%oj+*J%$wFjE6d#{5aK://;7R5p#:wZB y9WXF|v_&^Uo[' );
 
-/** Tự động cập nhật WordPress */
-define('WP_AUTO_UPDATE_CORE', true);  
-
-/** Tự động cập nhật plugins */
-add_filter( 'auto_update_plugin', '__return_true' );
-
-/** Tự động cập nhật themes */
-add_filter( 'auto_update_theme', '__return_true' );
-
-/** Tăng bộ nhớ PHP cho WordPress */
-define( 'WP_MEMORY_LIMIT', '128M' );
-
-/** Tự động sửa lỗi WordPress */
-define( 'WP_ALLOW_REPAIR', true );
-
-/** Vô hiệu hóa việc chỉnh sửa file theme và plugin trong WordPress Admin */
-define('DISALLOW_FILE_EDIT', true);
 
 
 
