@@ -38,13 +38,13 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-/** Tự động cập nhật WordPress */
+/** Tự động cập nhật WordPress. */
 define('WP_AUTO_UPDATE_CORE', true);  
 
-/** Tăng bộ nhớ PHP cho WordPress */
+/** Tăng bộ nhớ PHP cho WordPress. */
 define( 'WP_MEMORY_LIMIT', '128M' );
 
-/** Tự động sửa lỗi WordPress */
+/** Tự động sửa lỗi WordPress. */
 define( 'WP_ALLOW_REPAIR', true );
 
 /** Vô hiệu hóa việc chỉnh sửa file theme và plugin trong WordPress Admin */
