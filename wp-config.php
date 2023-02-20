@@ -47,7 +47,7 @@ define( 'WP_MEMORY_LIMIT', '128M' );
 /** Tự động sửa lỗi WordPress. */
 define( 'WP_ALLOW_REPAIR', true );
 
-/** Vô hiệu hóa việc chỉnh sửa file theme và plugin trong WordPress Admin */
+/** Vô hiệu hóa việc chỉnh sửa file theme và plugin trong WordPress Admin. */
 define('DISALLOW_FILE_EDIT', true);
 
 /**#@+
